@@ -1,0 +1,22 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>SBShanbay</title>
+    <style>
+    </style>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <form id="frm" method="post">
+      #Pages <input type="number" id="num"><br>
+      <input type="submit" value="Go">
+    </form>
+    <pre id="output"></pre>
+  </body>
+</html>
+

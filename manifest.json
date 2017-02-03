@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "SBShanbay",
+  "description": "Retrieve 今日单词 from shanbay.com",
+  "version": "1.0",
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "webNavigation",
+    "storage",
+    "tabs",
+    "http://*.shanbay.com/*",
+    "https://*.shanbay.com/*"
+  ]
+}
+
